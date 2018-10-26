@@ -1,5 +1,6 @@
 import heapq
 class Solution():
+	# This is actually not on LeetCode as is but it's a nice problem to know :)
 	# Given a stream of numbers compute the running median
 	# Key Idea: Use Max Heap for bottom part of numbers and Min Heap for top part. Remember that python's heapq is min-heap so you need to add a minus sign in front. A very nice reference video from HackerRank: https://www.youtube.com/watch?v=VmogG01IjYc
 	
